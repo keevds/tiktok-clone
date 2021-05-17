@@ -23,7 +23,7 @@ function Sidebar() {
 					}}></User>
 			</Following>
 			<InfoContainer>
-				<Links>
+				<Links margin>
 					<a>Inicio</a>
 					<a>Sobre</a>
 					<a>Sala de imprenssa</a>
@@ -38,10 +38,10 @@ function Sidebar() {
 					<a>Diretrizes</a>
 					<a>Termos</a>
 				</Links>
-				<Links>
+				<Links margin>
 					<a>Privacidade</a>
 				</Links>
-				<Links>
+				<Links margin>
 					<a>© 2021 TikTok</a>
 				</Links>
 			</InfoContainer>

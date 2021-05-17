@@ -48,5 +48,29 @@ export const FollowingHeader = styled.div`
 	padding-left: 16px;
 	margin-bottom: 28px;
 `;
-export const InfoContainer = styled.div``;
-export const Links = styled.div``;
+export const InfoContainer = styled.div`
+	margin-top: 16px;
+	padding-left: 16px;
+	padding-bottom: 24px;
+	width: 240px;
+	box-sizing: border-box;
+	color: rgba(22, 24, 35, 0.5) !important;
+`;
+export const Links = styled.div`
+	margin-bottom: ${(props) => (props.margin ? '8px' : '0px')};
+
+	> a {
+		cursor: pointer;
+		display: inline-block;
+		margin-right: 5px;
+		margin-top: 5px;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 12px;
+		color: rgba(22, 24, 35, 0.5);
+		font-family: 'proxima-semibold', PinFangSC, sans-serif;
+		:hover {
+			text-decoration: underline;
+		}
+	}
+`;
